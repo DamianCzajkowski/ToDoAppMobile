@@ -13,6 +13,10 @@
                 android:id="@+id/add"
                 android:title="@string/add_item"
                 app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/notCompleted"
+                android:title="@string/show_not_completed"
+                app:showAsAction="ifRoom" />
         </menu>
     </item>
 </menu>

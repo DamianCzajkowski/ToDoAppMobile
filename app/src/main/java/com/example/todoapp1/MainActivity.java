@@ -113,9 +113,18 @@ public class MainActivity extends AppCompatActivity {
                         }).create();
                 dialog.show();
                 taskAdapter.notifyDataSetChanged();
+            case R.id.notCompleted:
+                Toast.makeText(this, "Uncompleted tasks: " + sumNotCompletedTasks(), Toast.LENGTH_LONG).show();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
+    public long sumNotCompletedTasks() {
+
+        return tasks.stream().filter(item -> !item.getComplete()).count();
+
+    }
+
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     protected void onStart() {

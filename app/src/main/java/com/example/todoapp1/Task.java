@@ -26,7 +26,10 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task: " + name.toUpperCase() + " is completed: " + isComplete;
+        if(isComplete){
+            return name.toUpperCase() + " \u2611";
+        }
+        return name.toUpperCase() + " \u2610";
 
     }
 

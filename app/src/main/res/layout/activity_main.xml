@@ -14,7 +14,7 @@
         android:layout_marginTop="13dp"
         android:text="@string/todo_app"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/colorPrimaryDark"
         tools:ignore="MissingConstraints" />
 
     <ListView
@@ -24,6 +24,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="40dp"
+        android:padding="@dimen/task_item_padding"
         tools:ignore="MissingConstraints" />
 
     <EditText

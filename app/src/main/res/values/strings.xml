@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">ToDoApp1</string>
-    <string name="todo_app">ToDo app</string>
-    <string name="add_new_task_to_the_list">Add new Task to the list</string>
-    <string name="add">ADD</string>
-    <string name="remove_all">Remove all</string>
-    <string name="add_item">Add item</string>
+    <string name="app_name" translatable="false">ToDoApp1</string>
+    <string name="todo_app" translatable="false">ToDo app</string>
+    <string name="add_new_task_to_the_list">Dodaj nowe zadanie do listy</string>
+    <string name="add">DODAJ</string>
+    <string name="remove_all">Usuń wszystko</string>
+    <string name="add_item">Dodaj wartość</string>
+    <string name="show_not_completed">Pokaż zadania niezrobione</string>
 </resources>
