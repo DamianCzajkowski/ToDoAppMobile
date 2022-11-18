@@ -1,0 +1,9 @@
+
+C
+java:S1604k"(Make this anonymous inner class a lambda(÷ÿ§üüÿÿÿÿ
+f
+java:S1301c"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ
+F
+java:S1172M"+Remove this unused method parameter "view".(ÂÆâ–şÿÿÿÿ
+g	java:S128d"LEnd this switch case with an unconditional break, return or throw statement.(Ë Ø#8ñ¬ÍØÈ0
+<	java:S131c""Add a default case to this switch.(øå´¡ÿÿÿÿÿ
